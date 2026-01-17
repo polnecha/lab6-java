@@ -3,13 +3,12 @@ package task2;
 import java.util.Date;
 
 /**
- * Пример класса, аннотированного @Default с указанием типа по умолчанию.
+ * Пример класса с аннотацией @Default.
  */
-@Default(value = Date.class)  // или просто @Default(Date.class)
+@Default(Date.class)
 public class User {
     private String name;
 
-    // Поле тоже можно аннотировать (пример)
     @Default(String.class)
     private Object description;
 

@@ -18,7 +18,9 @@ public class ValidationHandler {
                 System.out.println("(нет)");
             } else {
                 for (int i = 0; i < classes.length; i++) {
-                    if (i > 0) System.out.print(", ");
+                    if (i > 0) {
+                        System.out.print(", ");
+                    }
                     System.out.print(classes[i].getName());
                 }
                 System.out.println();

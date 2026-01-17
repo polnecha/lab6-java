@@ -1,4 +1,3 @@
-// task4/DataProcessor.java
 package task4;
 
 /**
@@ -6,5 +5,4 @@ package task4;
  */
 @Validate({String.class, Integer.class, Double.class})
 public class DataProcessor {
-    // Пустой класс — нужен только для демонстрации
 }

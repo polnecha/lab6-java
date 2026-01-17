@@ -5,5 +5,4 @@ package task5;
  */
 @Two(first = "production", second = 100)
 public class Config {
-    // Пустой класс — нужен только для демонстрации
 }

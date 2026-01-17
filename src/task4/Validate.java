@@ -11,8 +11,5 @@ import java.lang.annotation.Target;
 @Target({ElementType.TYPE, ElementType.ANNOTATION_TYPE})
 @Retention(RetentionPolicy.RUNTIME)
 public @interface Validate {
-    /**
-     * Обязательный массив классов для валидации.
-     */
     Class<?>[] value();
 }

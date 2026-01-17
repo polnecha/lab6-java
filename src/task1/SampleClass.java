@@ -1,16 +1,12 @@
 package task1;
 
 /**
- * <summary>
- * Пример класса, содержащего несколько методов, один из которых помечен аннотацией @task1.Invoke.
- * </summary>
+ * Пример класса, содержащего несколько методов, один из которых помечен аннотацией @Invoke.
  */
 public class SampleClass {
 
     /**
-     * <summary>
      * Метод, который будет автоматически вызван обработчиком.
-     * </summary>
      */
     @Invoke
     public void annotatedMethod() {
@@ -18,18 +14,14 @@ public class SampleClass {
     }
 
     /**
-     * <summary>
      * Обычный метод без аннотации.
-     * </summary>
      */
     public void regularMethod() {
         System.out.println("Это обычный метод.");
     }
 
     /**
-     * <summary>
-     * Еще один метод с аннотацией @task1.Invoke.
-     * </summary>
+     * Еще один метод с аннотацией @Invoke.
      */
     @Invoke
     public void anotherAnnotatedMethod() {

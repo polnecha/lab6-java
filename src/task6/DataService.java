@@ -5,5 +5,4 @@ package task6;
  */
 @Cache({"users", "products", "categories"})
 public class DataService {
-    // Пустой класс — нужен только для демонстрации
 }

@@ -11,9 +11,5 @@ import java.lang.annotation.Target;
 @Target({ElementType.TYPE, ElementType.FIELD})
 @Retention(RetentionPolicy.RUNTIME)
 public @interface ToString {
-    /**
-     * Указывает, включать ли поле в toString.
-     * По умолчанию — YES.
-     */
     Mode value() default Mode.YES;
 }

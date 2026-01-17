@@ -7,13 +7,9 @@ import java.lang.annotation.Target;
 
 /**
  * Аннотация для указания класса по умолчанию.
- * Может применяться к типам (классам) и полям.
  */
 @Target({ElementType.TYPE, ElementType.FIELD})
 @Retention(RetentionPolicy.RUNTIME)
 public @interface Default {
-    /**
-     * Указывает класс по умолчанию.
-     */
     Class<?> value();
 }
